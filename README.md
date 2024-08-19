@@ -1,5 +1,5 @@
 class Product {
-  static #list = [] //Це оголошення приватного статичного поля #list, яке є масивом. Приватні поля позначаються символом # і доступні тільки всередині класу.
+  static #list = [] 
 
   constructor(name, price, description) {
     this.id = Math.floor(Math.random() * (99999 - 10000 + 1)) + 10000;
